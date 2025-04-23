@@ -1,0 +1,31 @@
+@import 'catagorization';
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    background-color: $secondary-color;
+    border-radius: 8px;
+  
+    label {
+      font-size: 14px;
+      color: $text-color;
+    }
+  
+    input[type="file"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: $white;
+    }
+  
+    .preview {
+      margin-top: 10px;
+      img {
+        max-width: 100px;
+        border-radius: 4px;
+      }
+    }
+  }
+  

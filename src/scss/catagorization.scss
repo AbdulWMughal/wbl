@@ -1,0 +1,138 @@
+// Categorization.scss
+
+// Color Variables
+$primary-color: #4c6ef5;
+$secondary-color: #e9ecef;
+$error-color: #ff4d4d;
+$success-color: #28a745;
+$background-color: #f8f9fa;
+$white: #ffffff;
+$text-color: #333333;
+
+// General Styles
+body {
+  background-color: $background-color;
+  font-family: 'Arial', sans-serif;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+// Container for centering content
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: $white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+// Heading Styles
+h2, h3 {
+  color: $primary-color;
+  margin-bottom: 16px;
+}
+
+// Form Styles
+input[type='text'], input[type='number'], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: $secondary-color;
+  box-sizing: border-box;
+}
+
+input[type='checkbox'] {
+  margin-right: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &.primary {
+    background-color: $primary-color;
+    color: $white;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+
+  &.danger {
+    background-color: $error-color;
+    color: $white;
+
+    &:hover {
+      background-color: darken($error-color, 10%);
+    }
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+    color: $text-color;
+
+    &:hover {
+      background-color: lighten($secondary-color, 5%);
+    }
+  }
+}
+
+// Table Styles
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: $primary-color;
+    color: $white;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: $secondary-color;
+  }
+
+  tbody tr:hover {
+    background-color: lighten($primary-color, 40%);
+  }
+}
+
+// Error and Success Messages
+.error-message {
+  background-color: $error-color;
+  color: $white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  background-color: $success-color;
+  color: $white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+// Image Preview Styles
+img.preview {
+  max-width: 100px;
+  margin-top: 10px;
+}
