@@ -46,13 +46,13 @@ In order to run the project you need `npm>=8.0v` installed on your machine.
 ### 1. Clone the `Chit-Chat-City` repository:
 
 ```bash
-git clone https://github.com/rajeevkrS/Chit-Chat-City
+git clone 
 ```
 
 ### 2. Navigate into repo:
 
 ```bash
-cd chit-chat-city
+cd into root directory
 ```
 
 
