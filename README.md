@@ -6,16 +6,11 @@
   </a>
 
 <!-- Short description: -->
-<h2>Real-time chat application using React Js & Firebase DB.</h2>
+<h2>HighField Park Trust application using React Js & Firebase DB.</h2>
 
 ## 🚀 Demo
 
-This application is deployed on Netlify. Please check it out [here](https://chit-chat-city.netlify.app).
-
-![chit-chat](https://github.com/rajeevkrS/Chit-Chat-City/assets/124420037/2f024df9-1be2-4631-b6e7-f8a4215ffcc3)
-
-</div>
-
+https://vimeo.com/1078128740/5d46dec3ac
 ## 🖥️ Tech Stack
 
 **Fontend:**
@@ -60,11 +55,7 @@ git clone https://github.com/rajeevkrS/Chit-Chat-City
 cd chit-chat-city
 ```
 
-### 3. Rename `.env.example` into `.env` and put all creadentials:
 
-```bash
-REACT_APP_FIREBASE_KEY="YOUR_FIREBASE_API_KEY"
-```
 
 ### 4. Install package dependencies:
 
